@@ -20,7 +20,6 @@ public class UserCreateForm {
     private String password2;
 
     @NotEmpty(message = "이메일 확인은 필수입니다")
-    @Email
-    private String email;
+    private String nickname;
 
 }
