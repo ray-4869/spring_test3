@@ -4,7 +4,7 @@
 - [O] 게시글 등록을 하면 http://주소:포트/article/create로 POST 요청을 보내어 DB에 해당 내용을 저장한다.
 - [O] 게시글 등록이 되면 해당 게시글 리스트 페이지로 리다이렉트 된다. 페이지 URL 은 http://주소:포트/article/list 이다.
 - [O] 리스트 페이지에서 해당 게시글을 클릭하면 상세페이지로 이동한다. 해당 경로는 http://주소:포트/article/detail/{id} 가 된다.
-- [O] 게시글 상세 페이지에는 목록 버튼이 있다. 목록 버튼을 누르면 게시글 리스트 페이지로 이동하게 된다.
+- [X] 게시글 상세 페이지에는 목록 버튼이 있다. 목록 버튼을 누르면 게시글 리스트 페이지로 이동하게 된다.
 
 # 2차 요구사항
 - [X] 게시글 상세페이지(http://주소:포트/article/detail/{id})에 수정 버튼이 있다. 수정 버튼을 누르면 게시글을 수정 할 수 있는 폼이나 오고 수정이 가능하다.
@@ -25,8 +25,19 @@
 
 ## UI/UX (화면 캡처본을 복사 붙여 넣기, url 주소 나오도록)
 - 게시글 리스트 페이지
+  ![화면 캡처 2024-09-23 130845](https://github.com/user-attachments/assets/337fdb34-afbb-444e-b6fa-dd2359afacd8)
+
 - 게시글 등록 폼 페이지
+  ![등록폼](https://github.com/user-attachments/assets/fa715b28-4e88-4e77-85dd-432fd768fe04)
+
 - 게시글 상세 페이지
+  ![상세페이지](https://github.com/user-attachments/assets/bd43e0a4-b4e5-49db-9927-2081d5150cd8)
+
 - 로그인 페이지
+  ![로그인](https://github.com/user-attachments/assets/48bea616-69bc-4433-844b-d6dd3f4fe78e)
+
 - 회원가입 페이지
+  ![회원가입](https://github.com/user-attachments/assets/c997344f-1505-4dbf-bb03-51888aef3e75)
+
 - (선택) 검색 페이지
+  
